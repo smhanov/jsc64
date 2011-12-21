@@ -21,7 +21,7 @@
  */
 
 //CONFIG
-var JSC64_BASEPATH = 'js/';
+var JSC64_BASEPATH = 'jsc64/js/';
 
 //this should be minified and combined with jquery.jsc64.js one day, for now, lets make it debugable...
 var nl = {}, i = 0, dependancies = ['com/nagoon97/BinFileReader.js', 'org/ejohn/Class.js',
