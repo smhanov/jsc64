@@ -114,7 +114,7 @@ function BinFileReader(fileURL){
 		req.overrideMimeType('text/plain; charset=x-user-defined');
 		req.send(null);
 
-		if (req.status != 200) {
+		if (req.status != 200 && req.status != 0) {
 			console.log('failing because of '+req.status);
 			throwException(_exception.FileLoadFailed);
 		}
